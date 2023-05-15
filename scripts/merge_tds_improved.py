@@ -5,7 +5,7 @@ from pathlib import Path
 import pandas as pd
 import os
 
-os.chdir("C:/Users/fionn/Documents/asreview_ATD_calculations/data")
+os.chdir("C:/Users/fionn/Documents/ASReview/sim_ARFI_makita")
 
 def create_table_state_tds(metrics):
     values = []
