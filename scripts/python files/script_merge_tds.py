@@ -5,8 +5,6 @@ from pathlib import Path
 import pandas as pd
 import os
 
-os.chdir("C:/Users/fionn/Documents/ASReview/sim_ARFI_makita")
-
 def create_table_state_tds(metrics):
     values = []
 
@@ -37,7 +35,7 @@ if __name__ == "__main__":
     parser.add_argument(
         "-s",
         type=str,
-        default="output/simulation/*/metrics/metrics_sim_*.json", # **add ouput/ to start of path for actual commit to asreview-makita**
+        default="output/simulation/*/metrics/metrics_sim_*.json", 
         help="metrics location")
     parser.add_argument(
         "-o",

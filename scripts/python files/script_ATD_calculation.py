@@ -7,11 +7,6 @@ import argparse
 import glob
 from pathlib import Path
 
-
-os.chdir("C:/Users/fionn/Documents/ASReview/sim_ARFI_makita")
-
-#df = pd.read_csv("data_tds.csv")
-
 def average_record_TD(df, prior=False):
     df['average_record_TD'] = df.iloc[:,2:].mean(axis=1)
     return df
@@ -19,19 +14,6 @@ def average_record_TD(df, prior=False):
 def average_simulation_TD(data, priors=False):
     df.loc['average_simulation_TD'] = df.iloc[:, 2:-1].mean(axis=0)
     return df
-
-average_record_TD(df)
-
-average_simulation_TD(df)
-
-# display entire df
-pd.set_option('display.max_rows', None)
-
-sim_ATD = df.iloc[-1].mean()
-print(f"sim_ATD: {sim_ATD:.50f}")
-
-record_ATD = df['average_record_TD'].mean()
-print(f"record_ATD: {record_ATD:.50f}")
 
 def get_td_values(df, version=None):
 
@@ -72,10 +54,6 @@ def get_td_values(df, version=None):
     }
 
     return result
-
-#td_values = get_td_values(df)
-                                
-#print_metrics(td_values)
 
 def split_file_paths(file_paths):
     simulations = {}
