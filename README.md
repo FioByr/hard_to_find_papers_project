@@ -1,15 +1,6 @@
-### The influence of active learning model and prior knowledge choice on how long it takes to find hard-to-find papers: Examining the variability of the time-to-discovery and the stability of its’ rank-orders
+# The influence of active learning model and prior knowledge choice on how long it takes to find hard-to-find papers: Examining the variability of the time-to-discovery and the stability of its’ rank-orders
 
-
-
-
-
-
-
-
-
-
-# Implementation into ASReview's Makita 
+## Implementation into ASReview's Makita 
 
 This repository also contains scripts which are either modified versions of already exisitng scripts from the asreview-makita and asreview-insights repositories, or new scripts which are created with the goal of being merged with these existing repositories. These scripts were created as part of the work of a master's thesis, and as well they also contribute to the open-source project of ASReview. 
 
