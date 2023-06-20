@@ -26,7 +26,7 @@ which has record IDs for each row, and each column corresponded to each simualat
 takes all the directory paths for the metrics files contained in a single project folder and splits it by the dataset, so that a TD table can be created per dataset. Additionally, this 
 allowed the saving of each datasets TD table into the ouput of each datasets simulation in a tables folder. This modified script was then altered further by the developers of the Makita 
 package (and therefore, was used for the purposes of this project, but is now outdated) when a pull request was made to merge this with the repository. The merged script now saves the TD 
-tables outside of each datasets' simulation files in an overal TD folder. 
+tables outside of each datasets' simulation files in an overall TD folder. 
 
 ### script_ATD_calcualtions (outdated)
 
@@ -38,3 +38,9 @@ intended to be used as a part of the project, but only a portion of it was used 
 
 This script incorporates the basic template of the script_merge_tds script to generate a table of the rank-orders of the TD values, with each row corresponding to a particular records, and 
 each column corresponding to each simulation run. This script is not included in the Makita package, and needs to be added locally. 
+
+## Data Preprocessing 
+
+### data_propocessing 
+
+This script removes the duplicates from the Radjenovic dataset, and the records with missing abstracts. 
