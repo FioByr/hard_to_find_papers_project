@@ -7,4 +7,4 @@ synergy_dataset get) in the command line. Alternatively, .zip of the dataset can
 
 ## Preprocessing 
 There were 14 duplicate records removed from the the Radjenovic dataset, and one record which had a missing abstract. Duplications were removed using the command
-(asreview data dedup MY_DATASET.ris -o output.csv) through the asreview-datatools package, which can be installed using (pip install asreview-datatools).
+(asreview data dedup MY_DATASET.ris -o output.csv) through the asreview-datatools package, which can be installed using (pip install asreview-datatools). The dataset, after preprocessing, contained 5920 papers (48 records being relevant). 
