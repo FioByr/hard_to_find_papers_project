@@ -24,6 +24,10 @@ This folder contains the scripts that were modified/generated to extract the TD 
 
 This folder contains the scripts and folders/files that were generated through ASReview's Makita workflow generator to conduct the simulation study. The scripts (as a jobs.bat file) to reproduce the multiple models and ARFI simulation are contained. 
 
+## License
+
+This project is published under the MIT license.
+
 
 
 
