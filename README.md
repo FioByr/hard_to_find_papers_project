@@ -1,13 +1,33 @@
 # The influence of active learning model and prior knowledge choice on how long it takes to find hard-to-find papers: Examining the variability of the time-to-discovery and the stability of its’ rank-orders
 
-## Implementation into ASReview's Makita 
+## Description 
 
-This repository also contains scripts which are either modified versions of already exisitng scripts from the asreview-makita and asreview-insights repositories, or new scripts which are created with the goal of being merged with these existing repositories. These scripts were created as part of the work of a master's thesis, and as well they also contribute to the open-source project of ASReview. 
+The purpose of this project was to explore how the choice of active learning (AL) model and prior knowledge influences the time-to-discovery (TD) of the hard-to-find papers in a dataset while using an AL-aided screening tool in the context of systematic reviewing (e.g., ASReview)
 
-script_merge_tds:
-This script is an updated version of an already existing script in the asreview-makita repository. It generates a TD table in which each column is a simulation run and the rows are the record IDs of relevant records. A separate table is generated for each dataset. 
+This repository contains the files to reproduce the simulation study and the subsequent analysis of the data for this project (which was conducted for a Master's thesis in Applied Data Science from Utrecht University). 
 
-script_ATD_calculations: 
-This script contains functions which take the tables outputed from the script_merge_tds script and calculate two different TD values: average-record-TD (which is the average of the TD values for a single record), and average-simualtion-TD (which is the average of the TD values across a simulation run). As well, it calculates two different ATD values: record-ATD (the average of the average-record-TD values), and simulation-ATD (the average of the average-simulation-TD values). These values are stored in a json file in each datasets metrics file.
+## Table of Contents
+
+### data
+
+This folder contains the dataset (Radjenović et al., 2013) that was used in the simulation studies. 
+
+### output
+
+This folder contains the the TD tables and the rank-order of the TD tables outputted from the multiple models and ARFI templates that were used to analyse. As well, the figures that were generated from the analysis are included.
+
+### scripts
+
+This folder contains the scripts that were modified/generated to extract the TD and the rank-orders of the TD tables through ASReview's Makita workflow generator. 
+
+### simulation_folders 
+
+This folder contains the scripts and folders/files that were generated through ASReview's Makita workflow generator to conduct the simulation study. The scripts (as a jobs.bat file) to reproduce the multiple models and ARFI simulation are contained. 
+
+## License
+
+This project is published under the MIT license.
+
+
 
 
