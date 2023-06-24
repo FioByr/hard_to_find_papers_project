@@ -32,6 +32,6 @@ Deduplication can be then completed by running this command.
 asreview data dedup Radjenovic_2013.csv -o Radjenovic_2013_ndup.csv
 ````
 
-### data_preprocessing.py
+### Remove Missing Abstracts 
 
 To remove the missing abstracts run the script data_preprocessing.py. One record with a missing abstract is removed. The new dataset Radjenovic_2013_ndup_nnan.csv is saved within the data files within each of the simulation project folders (multiple_models_simulation and arfi_simulation). 
