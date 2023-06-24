@@ -10,13 +10,9 @@ This repository contains the files to reproduce the simulation study and the sub
 
 ### data
 
-This folder contains the dataset (Radjenović et al., 2013) that was used in the simulation studies. 
+This contains the information into how to access the dataset and how to preprocess it. 
 
-### output
-
-This folder contains the the TD tables and the rank-order of the TD tables outputted from the multiple models and ARFI templates that were used to analyse. As well, the figures that were generated from the analysis are included.
-
-### scripts
+### modified scripts
 
 This folder contains the scripts that were modified/generated to extract the TD and the rank-orders of the TD tables through ASReview's Makita workflow generator. 
 
