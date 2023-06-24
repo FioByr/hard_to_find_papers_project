@@ -1,28 +1,25 @@
 # Scripts
 
-## How to use the modified Makita scripts
+## How to use the (modified) Makita scripts
 
 ### Install Makita (v0.6.3)
 
-Makita (v0.6.3) was used in the simulation study. The scripts that were modified were from this version.
+Makita (v0.6.3) was used in the simulation study. The scripts that were modified were from this version. To install this use the following command. 
 
 ````bash
 pip install asreview-makita==0.6.3
 ````
 
-
-
-## ASReview Insights Modified Scripts 
+## ASReview Insights (Modified) Scripts 
 
 ### metrics_updated_rank_order 
 
 This script is a modified version of metric.py script from the ASReview Insights package. The _time_to_discovery function was modified so that for each relevant record in
 the dataset the ranking of the TD is extracted. Before, only the record ID and TD value for each relevant record was extracted. This was done to obtain the rank-orders
 of the TD values of the relevant records across different simulations. This modification is not currently utilised in the actual insights package, but was added locally to
-the insights package, in order to obtain these values. To reproduce these findings, this modified version of the metrics.py file would have to replace the actual one on local 
-storage. 
+the insights package, in order to obtain these values. To reproduce these findings, this modified version of the metrics.py file would have to replace the actual one on local storage. 
 
-## ASReview Makita Modified Scripts 
+## ASReview Makita (Modified) Scripts 
 
 ### script_merge_tds (outdated)
 
@@ -43,9 +40,3 @@ intended to be used as a part of the project, but only a portion of it was used 
 
 This script incorporates the basic template of the script_merge_tds script to generate a table of the rank-orders of the TD values, with each row corresponding to a particular records, and 
 each column corresponding to each simulation run. This script is not included in the Makita package, and needs to be added locally. 
-
-## Data Preprocessing 
-
-### data_propocessing 
-
-This script removes the duplicates from the Radjenovic dataset, and the records with missing abstracts. 
