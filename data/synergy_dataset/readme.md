@@ -2,7 +2,7 @@
 
 ## How to access data?
 
-### Synergy Dataset
+### Synergy dataset
 The data used in the current project was the Radjenovic dataset (Radjenović et al., 2013) which was taken from the SYNERGY dataset (De Bruin et al., 2023). The SYNERGY dataset can be donwloaded by first installing the synergy-dataset Python package.
 
 ````python
@@ -32,6 +32,6 @@ Deduplication can be then completed by running this command.
 asreview data dedup Radjenovic_2013.csv -o Radjenovic_2013_ndup.csv
 ````
 
-### Remove Missing Abstracts 
+### Remove missing abstracts 
 
 To remove the missing abstracts run the script data_preprocessing.py. One record with a missing abstract is removed. The new dataset Radjenovic_2013_ndup_nnan.csv is saved within the data files within each of the simulation project folders (multiple_models_simulation and arfi_simulation). 
