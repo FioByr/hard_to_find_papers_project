@@ -1,11 +1,16 @@
 # Scripts
 
-## Analysis 
+## How to use the modified Makita scripts
 
-### Analysis Notebook
-This Jupyter notebook contains the code which was generated in order to analyse the time to discovery (TD) values and rank-orders of the TD values across different 
-simulations. The TD tables (df_td) and TD ranks tables (df_ranks) were analysed for both the multiple models and the ARFI template simulations that were conducted in
-during the project. 
+### Install Makita (v0.6.3)
+
+Makita (v0.6.3) was used in the simulation study. The scripts that were modified were from this version.
+
+````bash
+pip install asreview-makita==0.6.3
+````
+
+
 
 ## ASReview Insights Modified Scripts 
 
