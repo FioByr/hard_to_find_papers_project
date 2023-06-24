@@ -2,9 +2,9 @@
 
 ## How to use the (modified) Makita scripts
 
-### Install Makita (v0.6.3)
+### Install ASReviews' Makita (v0.6.3)
 
-Makita (v0.6.3) was used in the simulation study. The scripts that were modified were from this version. To install this use the following command. 
+ASReviews' Makita (v0.6.3) was used in the simulation study. The scripts that were modified were from this version. To install this use the following command. 
 
 ````bash
 pip install asreview-makita==0.6.3
