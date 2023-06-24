@@ -4,9 +4,9 @@
 The data used in the current project was the Radjenovic dataset (Radjenović et al., 2013) which was taken from the SYNERGY dataset (De Bruin et al., 2023). The SYNERGY
 dataset can be donwloaded by first installing the synergy-dataset Python package 
 
-'''python
+````python
 pip intall synergy-dataset
-'''
+````
 
 ) and then running the command (python -m
 synergy_dataset get) in the command line. Alternatively, .zip of the dataset can be downloaded at https://dataverse.nl/dataset.xhtml?persistentId=doi:10.34894/HE6NAQ
