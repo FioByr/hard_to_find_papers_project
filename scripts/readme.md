@@ -2,9 +2,10 @@
 
 ## How to use the (modified) Makita scripts
 
-### Install ASReview (v1.2)
+### Install ASReview (v1.2) and 
 
-ASReview (v1.2) was used, in addition to a modfied version of ASReviews' Makita (v0.6.3) in the simulation study. To make sure these versions are both used in order to reproduce the simulation studies first install asreview 
+ASReview (v1.2) was used, in addition to a modfied version of ASReviews' Makita (v0.6.3) in the simulation study. To make sure these versions are both used in order to reproduce the simulation studies first install asreview
+
 
 ````bash
 pip install asreview==1.2
