@@ -2,9 +2,9 @@
 
 ## How to use the (modified) Makita scripts
 
-### Install ASReview (v1.2) and Makita (v0.6.3)
+### Install ASReview (v1.2), Makita (v0.6.3) and Insights 
 
-ASReview (v1.2) was used, in addition to a modfied version of ASReviews' Makita (v0.6.3) in the simulation study. To make sure these versions are both used in order to reproduce the simulation studies first install asreview
+ASReview (v1.2) was used, with ASReview-Insights (v1.1.2) in addition to a modfied version of ASReviews' Makita (v0.6.3) in the simulation study. To make sure these versions are both used in order to reproduce the simulation studies, install ASReview and the relevant package versions using the following commands:
 
 
 ````bash
@@ -12,7 +12,10 @@ pip install asreview==1.2
 ````
 
 ````bash
-pip install asreview==0.6.3
+pip install asreview-makita==0.6.3
+````
+````bash
+pip install asreview-insights==1.1.2
 ````
 
 ### Replace asreviewcontrib file
