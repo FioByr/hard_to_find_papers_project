@@ -14,20 +14,15 @@ pip install asreview-makita==0.6.3
 
 ### metrics_updated_rank_order 
 
-This script is a modified version of metric.py script from the ASReview Insights package. The _time_to_discovery function was modified so that for each relevant record in
-the dataset the ranking of the TD is extracted. Before, only the record ID and TD value for each relevant record was extracted. This was done to obtain the rank-orders
-of the TD values of the relevant records across different simulations. This modification is not currently utilised in the actual insights package, but was added locally to
+This script is a modified version of metric.py script from the ASReview Insights package, which extracts the rank-orders of the time to discovery (TD) values. This modification is not currently utilised in the actual insights package, but was added locally to
 the insights package, in order to obtain these values. To reproduce these findings, this modified version of the metrics.py file would have to replace the actual one on local storage. 
 
 ## ASReview Makita (Modified) Scripts 
 
 ### script_merge_tds (outdated)
 
-This script was modified from the original script_merge_tds script on the ASReview Makita package. The create_table_state_tds fucntion was modified so that a TD table was produced
-which has record IDs for each row, and each column corresponded to each simualation being run for a particular template. Furthermore, the _split_file_paths function was added which 
-takes all the directory paths for the metrics files contained in a single project folder and splits it by the dataset, so that a TD table can be created per dataset. Additionally, this 
-allowed the saving of each datasets TD table into the ouput of each datasets simulation in a tables folder. This modified script was then altered further by the developers of the Makita 
-package (and therefore, was used for the purposes of this project, but is now outdated) when a pull request was made to merge this with the repository. The merged script now saves the TD 
+This script was modified from the original script_merge_tds script on the ASReview Makita package. A table of the TD values with record IDs as rows and simulation runs as columns is output in each datasets simulation file. This modified script was then altered further by the developers of the Makita 
+package, Jelle Teijama, (and therefore, was used for the purposes of this project, but is now outdated) when a pull request was made to merge this with the repository. The merged script now saves the TD 
 tables outside of each datasets' simulation files in an overall TD folder. 
 
 ### script_ATD_calcualtions (outdated)
