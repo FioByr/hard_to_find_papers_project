@@ -6,6 +6,30 @@ The purpose of this project was to explore how the choice of active learning (AL
 
 This repository contains the files to reproduce the simulation study and the subsequent analysis of the data for this project (which was conducted for a Master's thesis in Applied Data Science from Utrecht University). 
 
+## How to reproduce the project
+
+### Access and preprocess the data 
+
+Read the readme from the data folder
+
+### Install ASReview (and Makita)
+
+Please refer to the readme in the scripts folder. 
+
+### Run the jobs.bat files in the simulation folders
+
+Run the jobs.bat files from the arfi_simulation and the multiple_models simulation folders (when the data has been accessed and prepocessed).
+
+OR 
+
+### Download the modified version of Makita and then run the simulations
+
+PLease refer to the readme in the scripts folder.
+
+### Run the analysis notebook to access the results
+
+Open the analysis_notebook and run the scripts (making sure to change the directory to where you have the hard_to_find_papers_project repo stored on your local computer).
+
 ## Table of Contents
 
 ### data
