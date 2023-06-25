@@ -10,7 +10,7 @@ This repository contains the files to reproduce the simulation study and the sub
 
 ### 1. Access and preprocess the data 
 
-Read the readme from the data folder
+Please refer to the readme from the data folder
 
 ### 2. Install ASReview (and Makita)
 
@@ -26,7 +26,7 @@ OR
 
 PLease refer to the readme in the scripts folder.
 
-### 4. Run the analysis notebook to access the results
+### 4. Run the analysis notebook to generate the results
 
 Open the analysis_notebook and run the scripts (making sure to change the directory to where you have the hard_to_find_papers_project repo stored on your local computer).
 
