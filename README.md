@@ -8,25 +8,25 @@ This repository contains the files to reproduce the simulation study and the sub
 
 ## How to reproduce the project
 
-### Access and preprocess the data 
+### 1. Access and preprocess the data 
 
 Read the readme from the data folder
 
-### Install ASReview (and Makita)
+### 2. Install ASReview (and Makita)
 
 Please refer to the readme in the scripts folder. 
 
-### Run the jobs.bat files in the simulation folders
+### 3. Run the jobs.bat files in the simulation folders
 
 Run the jobs.bat files from the arfi_simulation and the multiple_models simulation folders (when the data has been accessed and prepocessed).
 
 OR 
 
-### Download the modified version of Makita and then run the simulations
+### 3. Download the modified version of Makita and then run the simulations
 
 PLease refer to the readme in the scripts folder.
 
-### Run the analysis notebook to access the results
+### 4. Run the analysis notebook to access the results
 
 Open the analysis_notebook and run the scripts (making sure to change the directory to where you have the hard_to_find_papers_project repo stored on your local computer).
 
