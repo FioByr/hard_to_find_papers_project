@@ -72,6 +72,6 @@ intended to be used as a part of the project, but only a portion of it was used 
 This script incorporates the basic template of the script_merge_tds script to generate a table of the rank-orders of the TD values, with each row corresponding to a particular records, and 
 each column corresponding to each simulation run. This script is not included in the Makita package, and needs to be added locally. 
 
-### template_arfi.txt / template_basic.txt / template_multiple_models.txt
+#### template_arfi.txt / template_basic.txt / template_multiple_models.txt
 
 These template files specify which scripts are to be run for the various templates of ASReviews' Makita workflow generator. These were modified so that script_atd_calculations.py and script_merge_td_ranks.py are added to the scripts to be run for each Makita template. 
