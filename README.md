@@ -11,7 +11,7 @@ This repository contains the files to reproduce the simulation study and the sub
 ### `data`
 This contains the information into how to access the dataset and how to preprocess it. 
 
-### `modified scripts`
+### `modified_scripts`
 
 This folder contains the scripts that were modified/generated to extract the TD and the rank-orders of the TD tables through ASReview's Makita workflow generator.
 
