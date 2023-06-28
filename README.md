@@ -9,7 +9,7 @@ This repository contains the files to reproduce the simulation study and the sub
 ## Table of Contents
 
 ### `data`
-This contains the information into how to access the dataset and how to preprocess it. 
+This contains the information on how to access the dataset and how to preprocess it. 
 
 ### `modified_scripts`
 
