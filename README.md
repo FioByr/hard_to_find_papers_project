@@ -1,4 +1,4 @@
-# The influence of active learning model and prior knowledge choice on how long it takes to find hard-to-find papers: Examining the variability of the time-to-discovery and the stability of its’ rank-orders
+# The influence of active learning model and prior knowledge choice on how long it takes to find hard-to-find papers: Examining the variability of the time-to-discovery and the stability of its rank-orders
 
 ## Description 
 
