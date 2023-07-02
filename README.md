@@ -13,7 +13,7 @@ This contains the information on how to access the dataset and how to preprocess
 
 ### `modified_scripts`
 
-This folder contains the scripts that were modified/generated to extract the TD and the rank-orders of the TD tables through ASReview's Makita workflow generator.
+This folder contains the scripts that were modified/generated to extract the TD and the rank-order of the TD tables through ASReview's Makita workflow generator.
 
 ### `multiple_models_simulation`
 
