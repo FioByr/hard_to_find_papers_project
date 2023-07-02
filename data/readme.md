@@ -5,13 +5,13 @@
 ### Synergy dataset
 The data used in the current project was the Radjenović dataset (Radjenović et al., 2013) which was taken from the SYNERGY dataset (De Bruin et al., 2023). The SYNERGY dataset can be donwloaded by first installing the synergy-dataset Python package.
 
-````bash
+````batch
 pip intall synergy-dataset
 ````
 
 Then run this command in the command line.
 
-````bash
+````batch
 python -m synergy_dataset get 
 ````
 
@@ -22,13 +22,13 @@ Alternatively, .zip of the dataset can be downloaded at https://dataverse.nl/dat
 ### Deduplication
 There were 14 duplicate records removed from the the Radjenović dataset, and one record which had a missing abstract was also deleted. Duplications were removed using a the deduplication from asreview-datatools, which can be installed via this command. 
 
-````bash
+````batch
 pip install asreview-datatools
 ````
 
 Deduplication can be then completed by running this command.
 
-````bash
+````batch
 asreview data dedup Radjenovic_2013.csv -o Radjenovic_2013_ndup.csv
 ````
 
