@@ -55,7 +55,7 @@ def get_td_values(df, version=None):
 
     return result
 
-def split_file_paths(file_paths):
+def _split_file_paths(file_paths):
     simulations = {}
     for path in file_paths:
         dirname = os.path.dirname(path)
@@ -82,7 +82,7 @@ if __name__ == "__main__":
 
     # load tables
     tables = glob.glob(args.s)
-    simulations = split_file_paths(tables)
+    simulations = _split_file_paths(tables)
     simulations.items()
 
     # merge results for each simulation
