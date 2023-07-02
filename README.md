@@ -13,15 +13,15 @@ This contains the information on how to access the dataset and how to preprocess
 
 ### `modified_scripts`
 
-This folder contains the scripts that were modified/generated to extract the TD and the rank-order of the TD tables through ASReview Makita workflow generator.
+This folder contains the scripts that were modified/generated to extract the TD and the rank-order of the TD tables through the ASReview Makita workflow generator.
 
 ### `multiple_models_simulation`
 
-This folder contains the scripts and folders/files that were generated through ASReview's Makita workflow generator to conduct the simulation study. The scripts (as a jobs.bat file) to reproduce the multiple models simulation are contained. 
+This folder contains the scripts and folders/files that were generated through the ASReview Makita workflow generator to conduct the simulation study. The scripts (as a jobs.bat file) to reproduce the multiple models simulation are contained. 
 
 ### `arfi_simulation`
 
-This folder contains the scripts and folders/files that were generated through ASReview's Makita workflow generator to conduct the simulation study. The scripts (as a jobs.bat file) to reproduce the ARFI simualtion are contained.
+This folder contains the scripts and folders/files that were generated through the ASReview Makita workflow generator to conduct the simulation study. The scripts (as a jobs.bat file) to reproduce the ARFI simualtion are contained.
 
 ### `analysis_notebook`
 
@@ -49,7 +49,7 @@ PLease refer to the readme in the scripts folder.
 
 ### 4. Run the analysis notebook to generate the results
 
-Open the analysis_notebook and run the scripts (making sure to change the directory to where you have the hard_to_find_papers_project repo stored on your local computer).
+Open analysis_notebook and run the scripts (making sure to change the directory to where you have the hard_to_find_papers_project repo stored on your local computer).
 
 ## License
 
