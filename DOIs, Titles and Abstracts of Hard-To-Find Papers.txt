@@ -1,4 +1,4 @@
-DOIs, Titles and Abstracts of Hard-to-Find Relevant Papers 
+DOIs, Titles and Abstracts of Hard-to-Find Relevant Papers: 
 
 Record ID: 2312
 
@@ -39,3 +39,49 @@ DOI: https://doi.org/10.1109/seaa.2008.36
 Title: Defect Prediction using Combined Product and Project Metrics - A Case Study from the Open Source "Apache" MyFaces Project Family
 
 Abstract: The quality evaluation of open source software (OSS) products, e.g., defect estimation and prediction approaches of individual releases, gains importance with increasing OSS adoption in industry applications. Most empirical studies on the accuracy of defect prediction and software maintenance focus on product metrics as predictors, which are available only when the product is finished. Only a few prediction models consider information on the development process (project metrics) that seem relevant to quality improvement of the software product. In this paper, we investigate defect prediction with data from a family of widely used OSS projects based both on product and project metrics, as well as on combinations of these metrics. Main results of data analysis are: (a) a set of project metrics prior to product release that had a strong correlation to potential defect growth between releases, and (b) a combination of product and project metrics enables a more accurate defect prediction than using just one type of measurement. Thus, the combined application of project and product metrics can (a) improve the accuracy of defect prediction, (b) enable better guidance of the release process from a project management point of view, and (c) help identify areas for product and process improvement.
+
+
+
+
+
+DOIs, Titles and Abstracts of Hard-to-Find Relevant Papers acros Prior Knowledge:
+
+Record ID: 2312
+
+DOI: https://doi.org/10.1109/hase.2004.1281737
+
+Title: How good is your blind spot sampling policy?
+
+Abstract: Assessing software costs money, and better assessment costs exponentially more money. Given finite budgets, assessment resources are typically skewed towards areas that are believed to be mission critical. This leaves blind spots: portions of the system that may contain defects which may be missed. Therefore, in addition to rigorously assessing mission-critical areas, a parallel activity should sample the blind spots. This paper assesses defect detectors based on static code measures as a blind spot sampling method. In contrast to previous results, we find that such defect detectors yield results that are stable across many applications. Further, these detectors are inexpensive to use and can be tuned to the specifics of the current business situations.
+
+Record ID: 5656
+
+DOI: https://doi.org/10.1109/msr.2010.5463279
+
+Title: An extensive comparison of bug prediction approaches
+
+Abstract: Reliably predicting software defects is one of software engineering's holy grails. Researchers have devised and implemented a plethora of bug prediction approaches varying in terms of accuracy, complexity, and the input data they require. However, the absence of an established benchmark makes it hard, if not impossible, to compare approaches. We present a benchmark for defect prediction in the form of a publicly available data set consisting of several software systems, and provide an extensive comparison of the explanative and predictive power of well-known bug prediction approaches, together with novel approaches we devised. Based on the results, we discuss the performance and stability of the approaches with respect to our benchmark and deduce a number of insights on bug prediction models.
+
+Record ID: 4826
+
+DOI: https://doi.org/10.1109/asset.2000.888052
+
+Title: An application of fuzzy clustering to software quality prediction
+
+Abstract: The ever-increasing demand for high software reliability requires more robust modeling techniques for software quality prediction. The paper presents a modeling technique that integrates fuzzy subtractive clustering with module-order modeling for software quality prediction. First, fuzzy subtractive clustering is used to predict the number of faults, then module-order modeling is used to predict whether modules are fault-prone or not. Note that multiple linear regression is a special case of fuzzy subtractive clustering. We conducted a case study of a large legacy telecommunication system to predict whether each module will be considered fault-prone. The case study found that using fuzzy subtractive clustering and module-order modeling, one can classify modules that will likely have faults discovered by customers with useful accuracy prior to release.
+
+Record ID: 2398
+
+DOI: https://doi.org/10.1109/icse.1998.671604
+
+Title: Validation of the coupling dependency metric as a predictor of run-time failures and maintenance measures
+
+Abstract: The coupling dependency metric (CDM) is a successful design quality metric. Here we apply it to four case studies: run-time failure data for a COBOL registration system; maintenance data for a C text-processing utility; maintenance data for a C++ patient collaborative care system; and maintenance data for a Java electronic file transfer facility. CDM outperformed a wide variety of competing metrics in predicting run-time failures and a number of different maintenance measures. These results imply that coupling metrics may be good predictors of levels of interaction within a software product.
+
+Record ID: 5792
+
+DOI: https://doi.org/10.1109/wcse.2009.92
+
+Title: Ineffectiveness of Use of Software Science Metrics as Predictors of Defects in Object Oriented Software
+
+Abstract: Software science metrics (SSM) have been widely used as predictors of software defects. The usage of SSM is an effect of correlation of size and complexity metrics with number of defects. The SSM have been proposed keeping in view the procedural paradigm and structural nature of the programs. There has been a shift in software development paradigm from procedural to object oriented (OO), and SSM have been used as defect predictors of OO software as well. However, the effectiveness of SSM in OO software needs to be established. This paper investigates the effectiveness of the use of SSM for: (a) classification of defect-prone modules in OO software, (b) prediction of the number of defects. Various binary and numeric classification models have been applied to dataset kc1 with class-level data to study the role of SSM. The results show that the removal of SSM from the set of independent variables does not significantly affect the classification of modules as defect-prone and the prediction of the number of defects. In most cases, the accuracy and mean absolute error have improved when SSM were removed from the set of independent variables. The results thus highlight the ineffectiveness of the use of SSM in defect prediction in OO software.
