@@ -1,42 +1,39 @@
-DOIs, Titles and Abstracts of Hard-to-Find Relevant Papers 
+Record ID: 2312
 
-Record ID: 2312 
+DOI: https://doi.org/10.1109/hase.2004.1281737
 
-doi: https://doi.org/10.1109/hase.2004.1281737 
+Title: Abstract How good is your blind spot sampling policy?
 
-Title: Abstract How good is your blind spot sampling policy? 
+Abstract: Assessing software costs money, and better assessment costs exponentially more money. Given finite budgets, assessment resources are typically skewed towards areas that are believed to be mission critical. This leaves blind spots: portions of the system that may contain defects which may be missed. Therefore, in addition to rigorously assessing mission-critical areas, a parallel activity should sample the blind spots. This paper assesses defect detectors based on static code measures as a blind spot sampling method. In contrast to previous results, we find that such defect detectors yield results that are stable across many applications. Further, these detectors are inexpensive to use and can be tuned to the specifics of the current business situations.
 
-Abstract: Assessing software costs money and better assessment costs exponentially more money. Given finite budgets, assessment resources are typically skewed towards areas that are believed to be mission critical. This leaves blind spots: portions of the system that may contain defects which may be missed. Therefore, in addition to rigorously assessing mission critical areas, a parallel activity should sample the blind spots. This paper assesses defect detectors based on static code measures as a blind spot sampling method. In contrast to previous results, we find that such defect detectors yield results that are stable across many applications. Further, these detectors are inexpensive to use and can be tuned to the specifics of the current business situations. 
+Record ID: 5656
 
-Record ID: 5656 
+DOI: https://doi.org/10.1109/msr.2010.5463279
 
-doi: https://doi.org/10.1109/msr.2010.5463279 
+Title: An extensive comparison of bug prediction approaches
 
-Title: An extensive comparison of bug prediction approaches 
+Abstract: Reliably predicting software defects is one of software engineering's holy grails. Researchers have devised and implemented a plethora of bug prediction approaches varying in terms of accuracy, complexity, and the input data they require. However, the absence of an established benchmark makes it hard, if not impossible, to compare approaches. We present a benchmark for defect prediction in the form of a publicly available dataset consisting of several software systems and provide an extensive comparison of the explanative and predictive power of well-known bug prediction approaches, together with novel approaches we devised. Based on the results, we discuss the performance and stability of the approaches with respect to our benchmark and deduce several insights into bug prediction models.
 
-Abstract: Reliably predicting software defects is one of software engineering's holy grails. Researchers have devised and implemented a plethora of bug prediction approaches varying in terms of accuracy, complexity and the input data they require. However, the absence of an established benchmark makes it hard, if not impossible, to compare approaches. We present a benchmark for defect prediction, in the form of a publicly available data set consisting of several software systems, and provide an extensive comparison of the explanative and predictive power of well-known bug prediction approaches, together with novel approaches we devised. Based on the results, we discuss the performance and stability of the approaches with respect to our benchmark and deduce a number of insights on bug prediction models. 
+Record ID: 4826
 
-Record ID: 4826 
+DOI: https://doi.org/10.1109/asset.2000.888052
 
-doi: https://doi.org/10.1109/asset.2000.888052 
+Title: An application of fuzzy clustering to software quality prediction
 
-Title: An application of fuzzy clustering to software quality prediction 
+Abstract: The ever-increasing demand for high software reliability requires more robust modeling techniques for software quality prediction. The paper presents a modeling technique that integrates fuzzy subtractive clustering with module-order modeling for software quality prediction. First, fuzzy subtractive clustering is used to predict the number of faults, then module-order modeling is used to predict whether modules are fault-prone or not. Note that multiple linear regression is a special case of fuzzy subtractive clustering. We conducted a case study of a large legacy telecommunication system to predict whether each module will be considered fault-prone. The case study found that using fuzzy subtractive clustering and module-order modeling, one can classify modules that will likely have faults discovered by customers with useful accuracy prior to release.
 
-Abstract: The ever increasing demand for high software reliability requires more robust modeling techniques for software quality prediction. The paper presents a modeling technique that integrates fuzzy subtractive clustering with module-order modeling for software quality prediction. First fuzzy subtractive clustering is used to predict the number of faults, then module-order modeling is used to predict whether modules are fault-prone or not. Note that multiple linear regression is a special case of fuzzy subtractive clustering. We conducted a case study of a large legacy telecommunication system to predict whether each module will be considered fault-prone. The case study found that using fuzzy subtractive clustering and module-order modeling, one can classify modules which will likely have faults discovered by customers with useful accuracy prior to release. 
+Record ID: 3230
 
-Record ID: 3230 
+DOI: https://doi.org/10.1109/iciinfs.2010.5578698
 
-doi: https://doi.org/10.1109/iciinfs.2010.5578698 
+Title: An empirical approach for software fault prediction
 
-Title: An empirical approach for software fault prediction 
+Abstract: Measuring software quality in terms of fault proneness of data can help tomorrow's programmers predict the fault-prone areas in the projects before development. Knowing the faulty areas early from previously developed projects can be used to allocate experienced professionals for the development of fault-prone modules. Experienced persons can emphasize the faulty areas and get the solutions in minimum time and budget, increasing software quality and customer satisfaction. We have used Fuzzy C Means clustering technique for the prediction of faulty/non-faulty modules in the project. The datasets used for training and testing modules are available from NASA projects, namely CM1, PC1, and JM1. They include requirement and code metrics which are then combined to get a combination metric model. These three models are then compared with each other, and the results show that the combination metric model is the best prediction model among three. Also, this approach is compared with others in the literature and is proved to be more accurate. This approach has been implemented in MATLAB 7.9.
 
-Abstract: Measuring software quality in terms of fault proneness of data can help the tomorrow's programmers to predict the fault prone areas in the projects before development. Knowing the faulty areas early from previous developed projects can be used to allocate experienced professionals for development of fault prone modules. Experienced persons can emphasize the faulty areas and can get the solutions in minimum time and budget that in turn increases software quality and customer satisfaction. We have used Fuzzy C Means clustering technique for the prediction of faulty/ non-faulty modules in the project. The datasets used for training and testing modules available from NASA projects namely CM1, PC1 and JM1 include requirement and code metrics which are then combined to get a combination metric model. These three models are then compared with each other and the results show that combination metric model is found to be the best prediction model among three. Also, this approach is compared with others in the literature and is proved to be more accurate. This approach has been implemented in MATLAB 7.9. 
+Record ID: 624
 
-Record ID: 624 
+DOI: https://doi.org/10.1109/seaa.2008.36
 
-doi: https://doi.org/10.1109/seaa.2008.36 
+Title: Defect Prediction using Combined Product and Project Metrics - A Case Study from the Open Source "Apache" MyFaces Project Family
 
-Title: Defect Prediction using Combined Product and Project Metrics - A Case Study from the Open Source "Apache" MyFaces Project Family 
-
-Abstract: The quality evaluation of open source software (OSS) products, e.g., defect estimation and prediction approaches of individual releases, gains importance with increasing OSS adoption in industry applications. Most empirical studies on the accuracy of defect prediction and software maintenance focus on product metrics as predictors that are available only when the product is finished. Only few prediction models consider information on the development process (project metrics) that seems relevant to quality improvement of the software product. In this paper, we investigate defect prediction with data from a family of widely used OSS projects based both on product and project metrics as well as on combinations of these metrics. Main results of data analysis are (a) a set of project metrics prior to product release that had strong correlation to potential defect growth between releases and (b) a combination of product and project metrics enables a more accurate defect prediction than the application of one single type of measurement. Thus, the combined application of project and product metrics can (a) improve the accuracy of defect prediction, (b) enable a better guidance of the release process from project management point of view, and (c) help identifying areas for product and process improvement. 
-
+Abstract: The quality evaluation of open source software (OSS) products, e.g., defect estimation and prediction approaches of individual releases, gains importance with increasing OSS adoption in industry applications. Most empirical studies on the accuracy of defect prediction and software maintenance focus on product metrics as predictors, which are available only when the product is finished. Only a few prediction models consider information on the development process (project metrics) that seem relevant to quality improvement of the software product. In this paper, we investigate defect prediction with data from a family of widely used OSS projects based both on product and project metrics, as well as on combinations of these metrics. Main results of data analysis are: (a) a set of project metrics prior to product release that had a strong correlation to potential defect growth between releases, and (b) a combination of product and project metrics enables a more accurate defect prediction than using just one type of measurement. Thus, the combined application of project and product metrics can (a) improve the accuracy of defect prediction, (b) enable better guidance of the release process from a project management point of view, and (c) help identify areas for product and process improvement.
